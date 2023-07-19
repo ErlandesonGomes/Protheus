@@ -1,0 +1,479 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<memberlist name="Global Methods" casesensitive="no">
+<member function="__DBPack()" help="Remove todos os registros com marca de excluído da tabela" image="event"/>
+<member function="AADD(aArray, xValor)" help="Adiciona um novo elemento ao final do array" image="method"/>
+<member function="AbreExcl(cAlias)" help="Fecha o arquivo e reabre exclusivo" image="event"/>
+<member function="AClone(aOrigem)" help="Duplica arrays aninhados ou muldi-dimensionais" image="method"/>
+<member function="ACopy(aOrigem, aDestino, [nIndice], [nQuant], [nPosDestino])" help="Copia os elementos de uma array para outra" image="method"/>
+<member function="Acos(nVal)" help="Calcula o valor do Arco Co-seno." image="method"/>
+<member function="ADel(aOrigem, nPos)" help="Exclui um elemento de um array" image="method"/>
+<member function="ADir([cArqEspec], [aNomeArq], [aTamanho], [aData], [aHora], [aAtributo])" help="Preenche varios arrays com informacoes de arquivos e diretorios" image="method"/>
+<member function="AEVal(aArray, bBloco, [nInicio], [nQtde])" help="Executa um code block para cada elemento" image="method"/>
+<member function="AFill(aDestino, expValor, [nInicio], [nQuantidade])" help="Preenche uma array com um determinado valor" image="method"/>
+<member function="Ains( aOrigem, nPos)" help="Insere um elemento com conateudo NIL em um array" image="method"/>
+<member function="Aleatorio(nMax, nSeed)" help="Gera um numero aleatorio" image="event"/>
+<member function="Alias(nAreaTrab)" help="Verifica qual é o Alias" image="event"/>
+<member function="AllGroups()" help="Retorna vetor contendo informacoes dos grupos de usuarios" image="event"/>
+<member function="Alltrim(cString)" help="Remove os espaços em branco à direita e à esquerda de uma cadeia de caracteres" image="method"/>
+<member function="Allusers()" help="Retorna vetor contendo informacoes dos usuarios do sistema" image="event"/>
+<member function="AllwaysFalse()" help="Foi criada com o objetivo de compatibilidade, que sempre irá retornar um valor lógico falso." image="method"/>
+<member function="AlwaysFalse()" help="Foi criada com o objetivo de compatibilidade, devido a necessidade de se ter que passar uma função e nao uma constante" image="method"/>
+<member function="AlwaysTrue()" help="Foi criada com o objetivo de compatibilidade, devido a necessidade de se ter que passar uma função e nao uma constante" image="method"/>
+<member function="ApMsgAlert(cMsg,[cTitulo])" help="Exibe uma mensagem em um dialogo" image="event"/>
+<member function="ApMsgInfo(cMsg,[cTitulo])" help="Exibe uma mensagem em um dialogo" image="event"/>
+<member function="ApMsgNoYes(cMsg, [cTitulo])" help="Exibe uma mensagem em um dialogo" image="event"/>
+<member function="APMsgStop(cMsg, [cTitulo])" help="Exibe uma mensagem em um dialogo" image="event"/>
+<member function="APMsgYesNo(cMsg, [cTitulo])" help="Exibe uma mensagem em um dialogo" image="event"/>
+<member function="ARRAY(nElemento01,nElemento02, nElemento03,....)" help="Cria um array com dados nao inicializados" image="method"/>
+<member function="AScan(aOrigem, expSearch, [nStart], [nCount])" help="Busca em um array ate que o bloco retorne verdadeiro" image="method"/>
+<member function="AScanX(aDestino, bProcura, [ nInicio] , [ nCont]) " help="Tem como objetivo varrer um vetor, A diferença da funçao ASCAN é que a função recebe um segundo parametro representando o indice do array." image="method"/>
+<member function="ASize(aOrigem, nNovoTamanho)" help="Acresenta ou reduz elementos de um array" image="method"/>
+<member function="ASort(aOrigem, [nInicio], [nQuant], [bOrdem])" help="Ordena um array" image="method"/>
+<member function="At(cPesquisa, cDestino) " help="Retorna a posição da primeira ocorrência de um substring." image="method"/>
+<member function="ATail(aArray)" help="Retorna o ultimo elemento de um array" image="method"/>
+<member function="Avalimp(nLimit)" help="Configura impressora através de parametros, Retorna string de controle" image="event"/>
+<member function="Aviso(cTitulo, cMensagem, aOpcoes)" help="Exibe janela de aviso" image="event"/>
+<member function="AxCadastro(cAlias, cTitulo, cDel, cOk)" help="Geração do modelo 1" image="event"/>
+<member function="Bin2I(cIntSinal)" help="Converter um inteiro com sinal de 16 bits para um valor numérico" image="method"/>
+<member function="Bin2L(cIntSinal)" help="Converte um inteiro com sinal de 32 bits para um valor numérico." image="method"/>
+<member function="Bin2Str()" help="Realiza a conversão de um valor em binario para uma cadeia de caracteres normal" image="method"/>
+<member function="Bin2w(cIntSemSinal)" help="Converte um inteiro com sinal de 16 bits para um valor numérico." image="method"/>
+<member function="Biton(cValue, nBitIni, nBitEnd, nStrLen) " help="Liga determinados bits de uma String passada por parametro para a função." image="method"/>
+<member function="bmpToJpg(cFileIn, cFileOut)" help="Realizar a conversão de um arquivo com extensão e formato de arquivo .bmp, para um arquivo de formato e extesão .jpg." image="method"/>
+<member function="BTVCanOpen(cNome, [cIndice])" help="Verifica se a tabela BTrieve pode ser aberta" image="method"/>
+<member function="BTVCreateDDFs(aTabelas, [cDiretorio])" help="Gera os arquivos de definicoes (DD's) que manipulam arquivos Btrieve (Crystal Reports)" image="method"/>
+<member function="BTVDropIdxs()" help="Apaga os indices da tabela corrente" image="method"/>
+<member function="BTVTables()" help="Retorna array composto por nomes das tabelas definidas no DDF" image="method"/>
+<member function="Cabec(cTitulo, cTexto1, cTexto2, cProg, cLargura, nControle) " help="Imprime cabecalho padrao dos relatorios" image="event"/>
+<member function="CalcEst(cProduto, cAlmox, dData)" help="Retorna q quantidade e sados do estoque de um produto" image="event"/>
+<member function="CalcSaldo(nPer, nMoeda, lSalAnt)" help="Calcula o saldo atual de uma conta contabil" image="event"/>
+<member function="Capital(cTexto)" help="Transforma as letras iniciais em maiusculas e as demais em minusculas" image="event"/>
+<member function="CDow(dData)" help="Converte uma data para uma cadeia de caracteres contendo o dia da semana" image="method"/>
+<member function="CGC(Expressão)" help="Consite o Cgc digitado" image="event"/>
+<member function="ChkFile(cAlias, lExcl, newAlias)" help="Abre um arquivo do sistema em modo exclusivo ou compartilhado" image="event"/>
+<member function="Chr(nCodigo)" help="Realiza a conversão numérica que converte um código ASCII." image="method"/>
+<member function="CLEARVARSETGET(cconstVar)" help="Retirar o bloco de código atribuido ao uso da variável, de forma que quando a variável for usada, o bloco nao será mais executado" image="method"/>
+<member function="CMonth(dData)" help="Converte uma data para uma cadeia de caracteres contendo o nome do mes" image="method"/>
+<member function="Commit()" help="Salva em disco todas as atualizacoes pendentes em todas as areas de trabalho" image="method"/>
+<member function="compress(@cBufferOut, @nLenghtOut, @cBufferIn, @nLengthIn) " help="Compacta um buffer recebido, através do algoritmo proprietário." image="method"/>
+<member function="Condição(nValTot, cCond, nVipi, dData)" help="Avalia uma condição de pagamento retornando um array multidimensional" image="event"/>
+<member function="ConfirmSX8()" help="Confirma numero sugerido pelo arquivo semafaro" image="event"/>
+<member function="conout(value)" help="Tem como objetivo exibir no console do servidor, uma determinada cadeia de caracteres informada através de parametro para a função." image="method"/>
+<member function="Conpad1([uPar1, [uPar2], [uPar3], cAlias, [cCampoRet], [uPar4], [lVisual])" help="Exibe a tela de consulta padrao" image="event"/>
+<member function="Contar(cAlias, cCond)" help="Conta o numero de registros com uma condição porposta" image="event"/>
+<member function="CopyFile(cOrigem, cDestino)" help="Copia Arquivos" image="method"/>
+<member function="Cos(nValor)" help="Calcula o valor do Co-seno ou Co-seno Hiperbólico" image="method"/>
+<member function="CpyS2T(cOrigem, cDestino, [lCompacta])" help="Copia arquivos do servidor para o cliente" image="event"/>
+<member function="CpyT2S(cOrigem, cDestino, [lCompacta])" help="Copia arquivos entre o cliente para o servidor" image="event"/>
+<member function="Credito(cConta, nMes, nMoeda)" help="Devolve o valor a credito de uma determinada conta" image="event"/>
+<member function="CriaTrab(aArray, lDbf)" help="Cria arquivo de trabalho" image="event"/>
+<member function="CriaVar(cCampo)" help="Cria uma variavel" image="event"/>
+<member function="CriaVar(cCampo, lIniPad, cLado)" help="Cria uma variavel" image="event"/>
+<member function="CTreeDelIdxs()" help="Deleta os indices da tabela corrente (ambiente Ctree)" image="method"/>
+<member function="CTreeDelInt(cNome)" help="Deleta indice interno da tabela CTree" image="method"/>
+<member function="CurDir([cNovoDir])" help="Retorna o diretorio corrente" image="method"/>
+<member function="CValToChar(valToChar)" help="Retornar uma string de qualquer tipo, de acordo com o parametro &lt;valToChar&gt;." image="method"/>
+<member function="DataValida(dData)" help="Retorna uma data valida que não seja sabado, domingo ou feriado" image="event"/>
+<member function="Day(dData)" help="Retorna o dia do mes como valor numerico" image="method"/>
+<member function="DBApepend([lLiberaBloqueios])" help="Acrescenta um novo registro na tabela corrente" image="method"/>
+<member function="DBAppend([lLiberaBloqueios ])" help="Acrescenta mais um registro em branco no final da tabela corrente." image="method"/>
+<member function="DBClearAllFilter()" help="Limpa a condição de filtro de todas as ordens da lista" image="method"/>
+<member function="DBClearFilter()" help="Limpa a condição de filtro" image="method"/>
+<member function="DBClearIndex()" help="Fecha todos os arquivos de indice da area de trabalho" image="method"/>
+<member function="DBCloseAll()" help="Fecha todas as tabelas abertas" image="method"/>
+<member function="DBCloseArea([cAlias])" help="Fecha a area de trabalho" image="method"/>
+<member function="DBCommit()" help="Salva em disco todas as modificacoes da tabela corrente" image="method"/>
+<member function="DBCommitAll()" help="Salva em disco todas as modificacoes" image="method"/>
+<member function="DBCreate(cNome, aEstrutura, [cDriver])" help="Cria  nova Tabela" image="method"/>
+<member function="DBCreateIndex(cNome, cExpChave, [bExpChave], [lUnico])" help="Cria um arquivo de indice" image="method"/>
+<member function="DBDelete()" help="Marca o arquivo corrente como deletado" image="method"/>
+<member function="DBEval(bBloco, [bForCod], [bWhileCond], [nProxRegs], [nRecno], [lRestante])" help="Executa uma expressão para os registros dentro da condicoes especificadas" image="method"/>
+<member function="DBF()" help="Verifica qual e o Alias corrente" image="event"/>
+<member function="DBFieldInfo(nInfoTipo, nCampo)" help="Verifica informacoes sobre um campo" image="method"/>
+<member function="DBFilter()" help="Verifica a expressão de filtro" image="method"/>
+<member function="DBGoBottom()" help="Posicionar a tabela corrente no último registro lógico." image="method"/>
+<member function="DBGoto()" help="Posiciona a tabela corrente em determinado registro, segundo a ordem física (seqüência sobre o recno)." image="method"/>
+<member function="DBGoTop()" help="Posicionar a tabela corrente no primeiro registro lógico." image="method"/>
+<member const="DBI_ALIAS" help="Nome do Alias da area de trabalho corrente similar a ALIAS (tipo caracter)" image="constant"/>
+<member const="DBI_BOF" help="Verifica se esta posicionada no inicio da tabela similar a BOF (tipo logico)" image="constant"/>
+<member const="DBI_EOF" help="Verifica se esta posicionada no final da tabela similar a EOF (tipo logico)" image="constant"/>
+<member const="DBI_FCOUNT" help="Numero de campos na estrutura da tabela corrente similar a FCOUNT (Tipo numerico)" image="constant"/>
+<member const="DBI_FOUND" help="Verifica se a tabela esta posicionada apos uma pesquisa similar a FOUND(tipo logico)" image="constant"/>
+<member const="DBI_FULLPATH" help="Nome da tabela correte com caminho completo (tipo caracter)" image="constant"/>
+<member const="DBI_GETRECSIZE" help="Tamanho do registro em numero de bytes similar a RECSIZE (tipo numerico)" image="constant"/>
+<member const="DBI_LASTUPDATE" help="Verifica a data da ultima modificação similar a LUPDATE(tipo data)" image="constant"/>
+<member const="DBI_TABLEEXT" help="Extenção do arquivo da tabela corrente (tipo caracter)" image="constant"/>
+<member function="DBInfo(nInfoTipo)" help="Verifica informacoes sobre a tabela" image="method"/>
+<member function="DBNickIndexKey(cNick)" help="Retorna o IndexKey, expressão de índice da ordem especificada pelo Nick const." image="method"/>
+<member const="DBOI_BAGconst" help="Nome do arquivo de indice ao qual a ordem pertence(tipo caracter)" image="constant"/>
+<member const="DBOI_FULLPATH" help="Nome do arquivo de indice (com seu diretorio) ao qual a ordem pertence (tipo caracter)" image="constant"/>
+<member const="DBOI_ORDERCOUNT" help="Numero de ordens existentes no arquivo de indice especificado" image="constant"/>
+<member function="DBOrderInfo(nInfoTipo, [cIndice], [cOrdem | nPosição])" help="Verifica informacoes sobre uma ordem" image="constant"/>
+<member function="DBOrderNickconst(cApelido)" help="Torna ativa a ordem com o determinado apelido" image="method"/>
+<member function="DBRecall()" help="Altera o estado deletado do registro atual" image="method"/>
+<member function="DBRecordInfo(nInfoTipo, [nRegistro])" help="Verifica informacoes sobre um registro" image="method"/>
+<member function="DBReindex()" help="Reconstroi todos os indices da area de trabalho" image="method"/>
+<member const="DBRI_DELETED" help="Estado de deletado. Similar a DELETED (tipo logico)" image="constant"/>
+<member const="DBRI_RECSIZE" help="Tamanho do registro. Similar a RECSIZE (tipo numerico)" image="constant"/>
+<member const="DBRI_UPDATED" help="Verifica se o registro foi alterado e ainda nao foi atualizado fisicamente. Similar a UPDATED (tipo logico)" image="constant"/>
+<member function="DBRLock([nRegistro])" help="Bloqueia determinado registro" image="method"/>
+<member function="DBRLockList()" help="Retorna uma lista com todos os registros locados na tabela corrente" image="method"/>
+<member function="DBRunLock([nRegistro])" help="Desbloqueia determinado registro" image="method"/>
+<member function="DBSeek(cExp | nExp, [lSoftSeek], [lultimo])" help="Encontra um registro com determinado valor da chave de indice" image="method"/>
+<member function="DbSetDriver([cNovoRddPadrao])" help="Modifica ou verifica o RDD padrao" image="method"/>
+<member function="DBSetFilter(bCondição, cCondição)" help="Seta uma condição de Filtro" image="method"/>
+<member function="DBSetIndex(cArqIndice)" help="Acrescenta todas as ordens de determinado indice a lista" image="method"/>
+<member function="DBSetNickconst(cOrdem, [cApelido])" help="Seta um apelido para determinada ordem ou verifica qual e o apelido corrente" image="method"/>
+<member function="DBSelectArea(cAlias)" help="Seleciona a area informada no parametro." image="method"/>
+<member function="DBSetOrder(nPosição)" help="Seleciona a ordem ativa da area de trabalho" image="method"/>
+<member function="DBSkip()" help="Avanca o registro" image="method"/>
+<member function="DBStruct()" help="Retorna a estrutura da tabela corrente" image="method"/>
+<member function="DBUnlock()" help="Desbloqueia todos os regsitros da tabela corrente" image="method"/>
+<member function="DBUnlockAll()" help="Desbloqueia todos os regsitros de todas as tabelas abertas" image="method"/>
+<member function="Debito(cConta, nMes, nMoeda)" help="Devolve o valor a debito de uma conta" image="event"/>
+<member function="DeCode64(cToConvert)" help="Realiza a conversão da cadeia de caracteres em base 64 bytes passada, para o uma base comun formato ASCII." image="method"/>
+<member function="DeCodeUTF8(cText)" help="Realiza a conversão de strings em UTF-8 para ASCII." image="method"/>
+<member function="Deleted()" help="Verifica se o registro foi deletado" image="method"/>
+<member function="DeleteKeyIni(cSeção, cChave, cIniFile)" help="Realiza a remoção de uma chave, de uma determinada seção do arquivo .INI." image="event"/>
+<member function="DeleteSectionIni(cSeção, cIniFile) " help="Realiza a remoção de uma determinada seção do arquivo .INI." image="event"/>
+<member function="Descend(cString)" help="Normalmente é utilizada para a criação de indexadores em Ordem Decrescente." image="method"/>
+<member function="DevOutPict(xVal, cPicture)" help="Imprime o conteudo na posição corrente formatando a saida" image="method"/>
+<member function="DevPos(nLin, nCol)" help="Posiciona linha e coluna de impressão" image="method"/>
+<member function="Directory(cDirSpec, [cAtributos])" help="Cria um array com dados dos diretorios e dos arquivos" image="method"/>
+<member function="DirRemove(cDirNome)" help="Elimina um diretorio" image="method"/>
+<member function="DiskSpace([nDriver])" help="Retorna o espaco disponivel em um disco especifico" image="method"/>
+<member function="Dow(dData)" help="Converte uma data para o valor numerico que representa o dia da semana" image="method"/>
+<member function="Dtoc(dData)" help="Converte uma data para cadeia de caracteres. Ex: 09/04/77" image="method"/>
+<member function="Dtos(dData" help="Converte uma data para uma cadeia de caracteres no formato yyyymmdd" image="method"/>
+<member function="Eject()" help="Forca a impressão de nova pagina no relatorio" image="method"/>
+<member function="ElapTime(cHoraInicial, cHoraFinal)" help="Retorna o tempo decorrido entre duas horas" image="method"/>
+<member function="EMPTY(exp) " help="Tem como objetivo determinar se o resultado de uma expressão é vazio" image="method"/>
+<member function="EnchoiceBar(oDlg, bOk, bCacelar, [lMensApag], [aBotoes])" help="Cria barra de botoes padrao na janela" image="event"/>
+<member function="EnCode64(cToConvert)" help="Realiza a conversão da cadeia de caracteres em base ASCII passada, para o uma base 64 bytes." image="method"/>
+<member function="EnCodeUTF8(cText)" help="Realiza a conversão de strings para formato UTF-8." image="method"/>
+<member function="EncryptRSA(cFileKey, cInfo, [lEncode64])" help="Tem como objetivo realizar a criptografia de dados, para isso usa um tipo de criptografia denominada RSA." image="method"/>
+<member function="Entre(Expr01, Expr02, cConteudo)" help="Verifica se o conteudo do campo esta entre duas expressoes" image="event"/>
+<member function="EOF()" help="Tem como objetivo determinar se o final do arquivo foi atingido." image="method"/>
+<member function="ERRORBLOCK(bErrorHandler) " help="Tem como objetivo, enviar um bloco de código a ser avaliado quando ocorre um erro em tempo de execuçao." image="method"/>
+<member function="Estrut(cProduto)" help="Obtem, em forma de array, a estrutura de um produto cadastrada no SG!" image="event"/>
+<member function="EVAL(bBloco, [ ])" help="É uma funçao de tratamento de blocos de código. " image="method"/>
+<member function="ExistChav(cAlias, cChave, nOrdem, cHelp)" help="Verifica se a chave ja existe em determinado Alias" image="event"/>
+<member function="ExistCpo(cAlias, cChave, nOrdem)" help="Verifica se determinada chave existe no Alias especificado" image="event"/>
+<member function="ExistDir (cPath) " help="Tem como objetivo determinar se um path de diretório existe e é valido." image="method"/>
+<member function="ExistIni(cCampo)" help="Verifica se o campo possui inicializador padrao" image="event"/>
+<member function="Extenso(nValor, lQtd, nMoeda)" help="Gera o extenso de um valor numerico" image="event"/>
+<member const="F_ATTR" help="Atributos do arquivo retornado pela função Directory" image="constant"/>
+<member const="F_BLOCK" help="Bloco com tamanho de 128 bits utilizado pela função FRead" image="method"/>
+<member const="F_DATE" help="Data de modificação do arquivo retornado pela função Directory" image="constant"/>
+<member const="F_const" help="Nome do Arquivo retornado pela função Directory" image="constant"/>
+<member const="F_SIZE" help="Tamanho do arquivo retornado pela função Directory" image="constant"/>
+<member const="F_TIME" help="Hora de modificação do arquivo retornado pela função Directory" image="constant"/>
+<member const="FC_HIDDEN" help="Atributo utilizado pela função FCreat, cria o arquivo como oculto" image="constant"/>
+<member const="FC_NORMAL" help="Atributo utilizado pela função FCreat, criação normal do arquivo" image="constant"/>
+<member const="FC_READONLY" help="Atributo utilizado pela função FCreat, cria o arquivo protegido para gravação" image="constant"/>
+<member const="FC_SYSTEM" help="Atributo utilizado pela função FCreat, cria o arquivo como sistema" image="constant"/>
+<member function="FClose(nHandle)" help="Fecha um arquivo binario e grava os buffers no disco" image="method"/>
+<member function="FCreate(cArq, [nAtributo])" help="Cria um arquivo ou elimina o conteudo de um arquivo" image="method"/>
+<member function="FErase(cArq)" help="Apaga um arquivo do disco" image="method"/>
+<member function="FError()" help="Verifica se houve erros apos uma operação com arquivos binarios" image="method"/>
+<member function="FieldBlock(cCampo)" help="Retorna um bloco de codigo para um campo determinado da tabela corrente" image="method"/>
+<member function="FieldWblock(cCampo, nArea)" help="Retorna um bloco de codigo para um campo determinado especificado a area de trabalho" image="method"/>
+<member function="File(cArquivo)" help="Verifica se um arquivo ou mascara de arquivos existem" image="method"/>
+<member function="FileNoExt(cTexto)" help="Retorna o nome de um arquivo" image="event"/>
+<member function="Final(cMensagem1, cMensagem2)" help="Utilizada para finalizar o sistema" image="event"/>
+<member function="FINDFUNCTION()" help="Tem como objetivo verificar se uma determinada função se encontra no repositório de objetos e até mesmo do binário do Protheus, sendo uma função básic" image="method"/>
+<member const="FO_COMPAT" help="Utilizado pela função FOpen, modo de compatibilidade " image="constant"/>
+<member const="FO_DENYNOME" help="Utilizado pela função FOpen, permite leitura e gravação" image="constant"/>
+<member const="FO_DENYREAD" help="Utilizado pela função FOpen, nao permite que outros abram o arquivo para leitura" image="constant"/>
+<member const="FO_DENYWRITE" help="Utilizado pela função FOpen, nao permite que outros abram o arquivo para gravação" image="constant"/>
+<member const="FO_EXCLUSIVE" help="Utilizado pela função FOpen, modo de abertura exclusive" image="constant"/>
+<member const="FO_READ" help="Utilizado pela função FOpen, modo de abertura apenas leitura" image="constant"/>
+<member const="FO_READWRITE" help="Utilizado pela função FOpen, modo de abertura leitura e gravação" image="constant"/>
+<member const="FO_SHARED" help="Utilizado pela função FOpen, igual ao FO_DENYNONE" image="constant"/>
+<member const="FO_WRITE" help="Utilizado pela função FOpen, modo de abertura apenas gravação" image="constant"/>
+<member function="FOpen(cArq, [nModo])" help="Abre um arquivo binario" image="method"/>
+<member function="FOpenPort(cArq, [cParam], [nModo])" help="Abre uma porta paralela ou serial" image="method"/>
+<member function="FRead(nHandle, @cBuffer, nQtdBytes)" help="Le caracteres binarios de um arquivo" image="method"/>
+<member function="FReadStr(nHandle, nQtdBytes)" help="Le caracteres de um arquivo binario" image="method"/>
+<member function="FReconst(cNomeAntigo, cNovoNome)" help="Renomeia um arquivo para outro nome, tanto no servidor como na estação" image="method"/>
+<member const="FS_END" help="Ajuste a partir do final do arquivo, utilizado pela função FSeek" image="constant"/>
+<member const="FS_RELATIVE" help="Ajuste relativo a posição atual do arquivo, utilizado pela função FSeek" image="constant"/>
+<member const="FS_SET" help="Ajusta a partir do inicio do arquivo, utilizado pela função FSeek" image="constant"/>
+<member function="FSeek(nHandle, nOffset, [nOrigem])" help="Posiciona o arquivo" image="method"/>
+<member function="FT_FEOF()" help="As funções FT_F* são usadas para para ler arquivos texto. Indica se o ponteiro esta posicionado no fim do arquivo texto." image="method"/>
+<member function="FT_FGOTO(nPos)" help="As funções FT_F* são usadas para para ler arquivos texto. Move o ponteiro para um posição absoluta" image="method"/>
+<member function="FT_FGOTOP()" help="As funções FT_F* são usadas para para ler arquivos texto. Posiciona o arquivo texto aberto na posição inicial do arquivo." image="method"/>
+<member function="FT_FLASTREC()" help="As funções FT_F* são usadas para para ler arquivos texto. Retorna o número de linhas existentes do arquivo texto." image="method"/>
+<member function="FT_FSKIP([nLinhas])" help="As funções FT_F* são usadas para para ler arquivos texto. Move o ponteiro do arquivo texto para uma nova posição." image="method"/>
+<member function="FT_FUSE([cTXTFile])" help="As funções FT_F* são usadas para para ler arquivos texto. Abre ou fecha um arquivo." image="method"/>
+<member function="FT_READLN()" help="As funções FT_F* são usadas para para ler arquivos texto. Le uma linha do arquivo texto." image="method"/>
+<member function="FT_RECNO()" help="As funções FT_F* são usadas para para ler arquivos texto. Retorna a posição do ponteiro do arquivo texto." image="method"/>
+<member function="FTPConnect(cServidor, nPorta, cUsuario, cSenha)" help="Cria conexao com servidor FTP" image="method"/>
+<member function="FTPDirChange(cDiretorio)" help="Altera o diretorio corrente do FTP" image="method"/>
+<member function="FTPDirectory(cMascara, [cAtributo])" help="Cria um vetor com informacoes de diretorios e arquivos, se cAtributo = D entao mostra apenas so diretorios" image="method"/>
+<member function="FTPDisconnect()" help="Elimina conexao atual" image="method"/>
+<member function="FTPDownload(cArqDest, cArqOrig)" help="Copia um arquivo no servidor FTP para o servidor local" image="method"/>
+<member function="FTPErase(cArquivo)" help="Apaga arquivo no servidor Ftp" image="method"/>
+<member function="FTPGetCurDir()" help="Retorna o diretorio corrente no FTP" image="method"/>
+<member function="FTPReconstFile(cArqAtual, cArqNovo)" help="Renomeia arquivo no servidor FTP" image="method"/>
+<member function="FTPUpload(cArqOrig, cArqDest)" help="Copia um arquivo na maquina local para o servidor FTP" image="method"/>
+<member function="FtpVersion ()" help="Tem como objetivo determinar qual a versão do functioncolo de Transferência de Arquivos." image="method"/>
+<member function="FuncaMoeda(dData, nValor, nMoeda)" help="Retorna um array contendo o valor do titulo em até cinco moedas" image="event"/>
+<member function="FunDesc()" help="Retorna descrição de uma opção do menu" image="event"/>
+<member function="Funconst()" help="Retorna nome de uma função do menu" image="event"/>
+<member function="FWrite(nHandle, cBuffer, [nQtBytes])" help="Grava em um arquivo binario" image="method"/>
+<member function="GetAdvFval(cAlias, aCpos, cChave, nOrder, aDef)" help="Executa uma pesquisa em um arquivo retornando o conteudo de um ou mais campos" image="method"/>
+<member function="GETBUILD()" help="Tem o objetivo de retornar uma cadeia de caracteres contendo as informações do build Protheus server em uso pelo Aplicativo." image="method"/>
+<member function="GetClientDir()" help="Retorna o diretorio onde esta instalado o Remote" image="method"/>
+<member function="GETCLIENTIP()" help="Tem como objetivo retornar o numero IP de uma determinada estação Client do Protheus." image="method"/>
+<member function="GETCOMPUTERconst ()" help="Retorna o nome da máquina (HOSTconst) que está executando o Protheus Remote" image="method"/>
+<member function="GetCountryList()" help="Retorna vetor contendo informacoes dos paises localizados" image="event"/>
+<member function="GetdToVal(cValor)" help="Tem o objetivo de retornar um numero formatado, de acordo com o valor passado por parametro" image="method"/>
+<member function="GetEnv(cVariavel) " help="Têm como objetivo determinar o valor de uma variável do environment da plataforma(Sistema Operacional) em uso, no ambiente do Protheus Server" image="method"/>
+<member function="getenvhost()" help="Retorna quando em ambiente web, por qual host a página foi chamada." image="method"/>
+<member function="GetEnvServer()" help="Tem como objetivo retornar uma string que nos permite determinar  o nome do Environment que está rodando atualmente no Server Protheus." image="method"/>
+<member const="GETF_LOCALFLOPPY" help="Exibe o drive de diskete" image="constant"/>
+<member const="GETF_LOCALHARD" help="Exibe o hardDisk local" image="constant"/>
+<member const="GETF_MUILTISELECT" help="Permite selecionar multiplos arquivos" image="constant"/>
+<member const="GETF_NETWORKDRIVE" help="Exibe os drivers da rede" image="constant"/>
+<member const="GETF_NOCHANGEDIR" help="Nao permite mudar o diretorio" image="constant"/>
+<member const="GETF_OVERWRITEPROMPT" help="Solicita confirmação para sobrescrever" image="constant"/>
+<member const="GETF_RETDIRECTORY" help="Retorna um diretorio" image="constant"/>
+<member const="GETF_SHAREWARE" help="Nao implementado" image="constant"/>
+<member function="GETFONTLIST()" help="Tem o objetivo de retornar as fontes de letra disponíveis no Sistema Operacional da estação." image="method"/>
+<member function="GETFUNCARRAY()" help="Tem o objetivo de retornar uma array contendo todas as funções contidas no RPO de acordo com um valor especificado em &lt;cNome&gt; como paramêtro." image="method"/>
+<member function="GetImpWindows(lServer)" help="Retorna lista de impressora disponiveis para impressão" image="method"/>
+<member function="GetIniSessions(cArqIni)" help="Retornar o nome de todas as seções de um determinado arquivo .INI do Protheus" image="event"/>
+<member function="GetMark(lMaiusc])" help="Retorna string de caracteres aleatorios" image="method"/>
+<member function="GetMv(cParam)" help="Recupera o conteudo de parametros do SX6" image="event"/>
+<member function="GetPortActivate(lServer)" help="Retorna lista de portas de impressão disponiveis" image="method"/>
+<member function="GetRemoteIniconst()" help="Retorna o nome do arquivo de configuração do AP Remote" image="event"/>
+<member function="GetRemoteType()" help="É possível identificar sob qual interface o programa atual está em execução." image="method"/>
+<member function="GETSCREENRES()" help="Retorna Array com a resolução de tela da máquina executando o Protheus Remote." image="method"/>
+<member function="GETSERVERTYPE()" help="Tem o objetivo de retorna o tipo de Protheus server que está sendo executado." image="method"/>
+<member function="GetSrvProfString(cChave, cDefault)" help="Obtem o conteúdo de uma chave de configuração do environment atual em uso no arquivo de Inicialização do Server Protheus ( APxSrv.ini ) ." image="event"/>
+<member function="GetSx8Num(cAlias)" help="Fornece o numero sequencial do arquivo semáforo" image="event"/>
+<member function="GetSx8Num(cAlias, cCpoSx8)" help="Fornece o numero sequencial do arquivo semáforo" image="event"/>
+<member function="GETUSERINFOARRAY()" help="Tem o objetivo de retornar um array multi-dimensional que representa o numero de threads, com os dados de cada uma das Threads." image="method"/>
+<member function="GETWEBJOB()" help="É possível recuperar o nome da configuração de Working Threads ( Job ) que está sendo utilizada pela Working Thread atual." image="method"/>
+<member function="Header()" help="Verifica o tamanho do cabecalho da tabela corrente" image="method"/>
+<member function="Help(cHelp, nLinha, cTitulo, cNil, cMensagem, nLinMen, nColMen)" help="Exibe ajuda especificada para o campo e permite a sua edição" image="event"/>
+<member function="HTTPCACHE(cCacheControl) " help="Podemos redefinir a etiqueta CACHE-CONTROL do Header de Resposta de requisição HTTP , sobrepondo à definição defaut de retorno CACHE-CONTROL ." image="method"/>
+<member function="HTTPCOUNTSESSION()" help="Esta função retorna o número de Sessions de usuários que estão atualmente em uso na memória." image="method"/>
+<member function="HTTPCTDISP()" help="A função tem o objetivo de prover informações sobre como apresentar uma mensagen ou como parte de um pacote." image="method"/>
+<member function="HTTPCTLEN([nTam])" help="É usada para indicarmos o tamanho de um pacote Http que será enviado ao browser, de acordo com alguma requisição feita ao browser." image="method"/>
+<member function="HTTPCTTYPE([cType])" help="Tem o objetivo, de indicar qual o tipo de pacote Http, que será retornado para uma determinada requisição Http." image="method"/>
+<member function="HTTPEXITPROC(cFunction)" help="Tem o objetivo de setar uma função que será chamada quando uma Session for Finalizada por Time-Out." image="method"/>
+<member function="HttpFreeSession()" help="Eliminamos da memória do Servidor Protheus todas as variáveis de Session do usuário atual." image="method"/>
+<member function="HttpGet(cUrl, [cGETParms],[nTimeOut])" help="Permite a emulação de um Client HTTP através de uma função Advpl." image="method"/>
+<member function="HTTPGETPART()" help="Esta função retorna se o envio parcial de conteúdo ao browser está ou não habilitado." image="method"/>
+<member function="HTTPGETSTATUS()" help="Tem o objetivo de retornar qual o status da conexão HTTP requisitada." image="method"/>
+<member function="HttpLeaveSession()" help="Sempre retorna NIL" image="method"/>
+<member function="I2Bin(nInteiro)" help="Converte um numérico para um inteiro binário de 16 bits." image="method"/>
+<member function="IncProc()" help="Incrementa regua padrao de processamento" image="event"/>
+<member function="IncRegua()" help="Incrementa regua padrao de processamento de relatorios" image="event"/>
+<member function="IndexKey(nOrdem)" help="Verifica qual a expressão de chave de um indice" image="method"/>
+<member function="IndexOrd()" help="Verifica a posição do indice correte" image="method"/>
+<member function="IndRegua(cAlias, cArqTrab, cChave, cOrdem, cFiltro, cTexto)" help="Cria indice de trabalho, podendo ser condicional" image="event"/>
+<member function="InitPrint([nOutPut], [cconstRel], [cType], [lPort], [cPathAtu])" help="Inicializa parametros de impressão de relatorios" image="method"/>
+<member function="IPCCount (cSemaforo)" help="Tem como objetivo obter todas as Threads que estão no ar em um determinado ambiente indicado pelo semaforo." image="method"/>
+<member function="IPCGo(cSemaforo)" help="Tem como objetivo mandar uma chamada para uma Thread, na qual nao precisa ser necessariamente em mesmos ambientes, que esteja em wait." image="method"/>
+<member function="IPCWait(nTimeOut)" help="Tem como objetivo colocar em modo de espera uma Thread que acabou de ser carregada e fica aguardando oo chamado de uma IPCGo()." image="method"/>
+<member function="IPCWaitEx(cSemaforo, nTimeOut)" help="Tem como objetivo colocar em modo de espera uma Thread que acabou de ser carregada e fica aguardando oo chamado de uma IPCGo()." image="method"/>
+<member function="IsAlpha(cString)" help="Determina se o caractere mais à esquerda em uma cadeia de caracteres é alfabético." image="method"/>
+<member function="IsCisaSyncOn()" help="Verifica se o uso do CisaSync esta habilitado" image="method"/>
+<member function="IsDigit(cString)" help="Determina se o caractere mais à esquerda em uma cadeia de caracteres é um dígito." image="method"/>
+<member function="IsLower(cString)" help="Determina se o caractere mais a esquerda é uma letra minúscula." image="method"/>
+<member function="IsPrinter([xPorta], [lSeta], [nWhere], [@nErrorCode])" help="Verifica se impressora esta disponivel" image="method"/>
+<member function="ISSRVUNIX()" help="Informa se o servidor Advanced Protheus está sendo executado em ambiente UNIX ou Linux." image="method"/>
+<member function="IsUpper(cString)" help="Determina se o caractere mais a esquerda é uma letra maiúscula." image="method"/>
+<member function="KILLAPP([lKill])" help="A função KillApp pode ser usada com dois objtivos diferentes de acordo com a passagem de parametro." image="method"/>
+<member function="L2Bin(nValor)" help="Converte um numérico para um inteiro binário de 32 bits." image="method"/>
+<member function="LetterOrNum(cChar)" help="Verifica se o caracter é uma letra ou um numero" image="method"/>
+<member function="Log10(nValor)" help="Calcular o logaritmo natural de um valor numérico, em base 10." image="method"/>
+<member function="LTrim(cString)" help="Formata cadeias de caracteres que possuam espaços em branco à esquerda." image="method"/>
+<member function="LUpdate()" help="Verifica a data da utltima modificação da tabela corrente" image="method"/>
+<member function="MakeDir(cNovodir)" help="Cria um diretorio" image="method"/>
+<member function="MarkBRefresh()" help="Atualiza o browse da MarkBrow" image="event"/>
+<member function="MarkBrow(cAlias, cCampo, [cCpo], [aCampos], [lInverte], cMarca, [cCtrlM], [uPar], [cExpIni], [cExpFim], [cAval])" help="Monta um Browse onde as linhas podem ser marcadas ou desmarcadas" image="event"/>
+<member function="MarkBrowse(cAlias, cAmpo, cCpo, aCampos, lMark, cMarca, cCtrlM, lBotoes, cTopFun, cBotFun, aCoord)" help="Monta um browse padrao do sistema, permitindo marcar e desmarcar linhas" image="event"/>
+<member function="Mathc(cNum1, cOperação , cNum2 ) " help="Realiza operações matematicas com strings que contém um valor numérico." image="constant"/>
+<member function="MAX(nExp1, nExp2)" help="Tem o objetivo de  retornar o maior entre dois valores numéricos ou data." image="method"/>
+<member function="mBrowse(nLinIni, nColIni, nLinFinal, nColFinal, cAlias)" help="Monta um browse padrao do sistema, conforme parametros" image="event"/>
+<member function="mBrowse(nLinIni, nColIni, nLinFinal, nColFinal, cAlias, aFixe, cCpo, nPar, cCor, nOpc)" help="Monta um browse padrao do sistema, conforme parametros" image="event"/>
+<member function="MD5(cValor, nType)" help="Tem o objetivo de aplicar uma criptografia, sobre um determininado valor informado para a função através de string." image="method"/>
+<member function="Media(nMoeda, nMes, nAno)" help="Retorna taxa media da moeda em um determinado mes/ano" image="event"/>
+<member function="MemoLine(cString, [nLineLength], [nLineNumber], [nTabSize], [lWrap])" help="Extrai uma linha de uma string ou de um campo memo" image="method"/>
+<member function="MemoRead(cFile)" help="Le um arquivo texto e retorna uma string" image="method"/>
+<member function="MemoWrite(cArquivo, cString)" help="Grava uma string para um arquivo em disco" image="method"/>
+<member function="MesExtenso(nMes)" help="Retorna o mes extenso de uma variavel" image="event"/>
+<member function="MIN(nExp1, nExp2)" help="Tem o objetivo de  retornar o menor entre dois valores numéricos ou data." image="method"/>
+<member function="MLCount(cString, [nLineLength],  [nTabSize], [lWrap])" help="Conta o numero de linhas de uma string" image="method"/>
+<member function="Modelo2(cTitulo, aCabec, aRodape, aGd, nOpc, bLok, bTok, aGetsGD, bF4, cIniCpos, nMax, aCordw, lDelget)" help="Exibe formulario para cadastro (como rotina nota fiscal)" image="event"/>
+<member function="Modelo3(cTitulo, cAliasEnchoice, cAliasGetD, aCpoEnchoice, cLinOk, cTudOk, nOpcE, nOpcG, cFiledOk, lVirtual, nLinhas, aAltEnchoice)" help="Exibe formulario para cadastro (como rotina pedido de compral)" image="event"/>
+<member function="MontaF3(cAlias)" help="Permite o acesso a janela de consultas do SXB" image="event"/>
+<member function="Month(dData)" help="Converte o valor da data para o numero do mes" image="method"/>
+<member function="MovimCC(cCC, cConta, nMes, nMoeda)" help="Retorna o movimento de um centro de custo mais conta contabil" image="event"/>
+<member function="Movimento(cCodigo, nMes, nMoeda, dData)" help="Devolve o saldo do movimento de uma conta" image="method"/>
+<member function="MS_Flush()" help="Descarrega spool de impressão" image="method"/>
+<member function="MSAPPBRINGTOFRONT()" help="Pode ser utilizada para avisar ao sistema operacional para que mude a disposição das janelas ativas no desktop." image="method"/>
+<member function="MsAppend([cArqDest], cArqOrig)" help="Adiciona registros de um arquivo para outro" image="event"/>
+<member function="MSCBBegin(nQuant, nVelocidade, nTamanho)" help="Inicializa a montagem da imagem para cada etiqueta" image="method"/>
+<member function="MSCBBox(nX1mm, nY1mm, nXmm2, nYmm2, nEspessura, cCor)" help="Imprime um box" image="method"/>
+<member function="MSCBChkStatus(lStatus)" help="Seta ou vizualiza o controle de status do sistema com a impressora" image="method"/>
+<member function="MSCBClosePrinter()" help="Finaliza a conexao com a impressão" image="method"/>
+<member function="MSCBEnd()" help="Finaliza a montagem da imagem" image="method"/>
+<member function="MSCBGrafic(nXmm, nYmm, cArquivo, lReverso)" help="Imprime grafico que esta armazenado na memoria" image="method"/>
+<member function="MSCBLineH(nX1mm, nY1mm, nX2mm, nEspessura, cCor)" help="imprime uma linha horizontal" image="method"/>
+<member function="MSCBLineV(nX1mm, nY1mm, nX2mm, nEspessura, cCor)" help="Imprime uma linha vertical" image="method"/>
+<member function="MSCBLoadGrf(cImagem)" help="Carrega uma imagem para a memoria da impressora" image="method"/>
+<member function="MSCBPrinter(cModelo, cPorta, nDensidade, nTamanho, lLocal, nPortaOutroServer, cOutroServer, cAmbienteOutroServer, nMemoria)" help="Configura o modelo da impressão" image="method"/>
+<member function="MSCBSay(nXmm, nYmm, cTexto, cRotação, cFonte, cTam, lReverso, lSerial, cIncr, lZeros)" help="Imprime uma stringo" image="method"/>
+<member function="MSCBSayBar(nXmm, nYmm, cConteudo, cRotação, cTypePrt, nAltura, lDigver, lLinha, lLinBaixo, cSubSetIni, nLargura, nRelação, lCompacta, lSerial, cIncr, lZeros)" help="Imprime codigo de Barras" image="method"/>
+<member function="MSCBSayMemo(nXmm, nYmm, nLMemomm, nQLinhas, cTexto, cRotação, cFonte, cTam, lReverso, cAlign)" help="Monta e imprime um campo" image="method"/>
+<member function="MSCBWrite(cConteudo)" help="Envia para porta uma linha de programação nativa da impressora" image="method"/>
+<member function="MsCompress(cArq, [cDestino], [cSenha])" help="Compacta um ou varios arquivos em um unico arquivo com extensão .MZP" image="method"/>
+<member function="MsCompress(aArquivos, [cDestino], [cSenha])" help="Compacta um ou varios arquivos em um unico arquivo com extensão .MZP" image="method"/>
+<member function="MsCopyFile(cArqOrig, cArqDest)" help="Executa copia binaria de um arquivo" image="event"/>
+<member function="MsCopyTo([cArqOrig], cArqDest)" help="Realiza copia de um arquivo de dados" image="event"/>
+<member function="MsCRC32(cString)" help="Calcula um CRC de uma string" image="method"/>
+<member function="MsCRC32Str(cString)" help="Calcula um CRC de uma string retornando em formato string" image="method"/>
+<member function="MsCreate(cArquivo, aEstrut, [cDriver])" help="Cria arquivo de dados" image="method"/>
+<member function="MsDecomp(cArqZip, cPathDestino, [cSenha])" help="Descompacta arquivos no formato .MZP (Microsiga Zip)" image="method"/>
+<member function="MsErase(cArquivo, [cIndice], [cDriver])" help="Deleta arquivo" image="event"/>
+<member function="MsFile(cArquivo, [cIndice], [cDriver])" help="Verifica a existencia de um arquivo" image="event"/>
+<member function="MsgBox(cMensagem)" help="Abre caixa de dialogo padronizada" image="method"/>
+<member function="MsgBox(cMensagem, cTitulo, cTpCaixa)" help="Abre caixa de dialogo padronizada" image="method"/>
+<member function="MsReconst(cArqOrig, cArqdest)" help="Renomiea arquivo de acordo com o RDD corrente" image="method"/>
+<member function="MsUnLock()" help="Libera lock de registro" image="method"/>
+<member function="NaoVazio(cCpo)" help="Verifica se o campo não esta vazio" image="event"/>
+<member function="Negativo(nVal)" help="Verifica se é negativo" image="event"/>
+<member function="OemToAnsi(cStringOEM)" help="Transforma uma String no Formato OEM / MS-DOS Text  para uma String ANSI Text." image="method"/>
+<member function="OpenFile(cEmp as  Codigo da Empresa)" help="Verifica existencia dos arquivos de dados e os indices do sistema, criando caso nao existam." image="method"/>
+<member function="Orcado(cConta, nPeriodo, nMoeda, dData)" help="Retorna o valor orcado de uma conta" image="event"/>
+<member function="OrdCondSet([cForCond], , , ,[bEval], , , , , ,[lDescendente], , , ,) " help="Set a condição e o escopo para a ordem corrente" image="method"/>
+<member function="OrdCreate([cIndice], [cOrdem], cExpChave, [bExpChave], [lUnico])" help="Cria uma ordem em determinado arquivo de indice" image="method"/>
+<member function="OrdDescend([cOrdem | nPosição], [cArqIndice], [lDecrescente])" help="Verifica ou altera a condição crescente ou decrescente de uma ordem" image="method"/>
+<member function="ORDKey([cOrdem | nPosição ], [cArqIndice])" help="Verifica qual a expressão de chave da ordem" image="method"/>
+<member function="OrdListAdd(cArIndice, [cOrdem])" help="Acrescenta uma ou mais ordens a lista" image="method"/>
+<member function="OurSpool(cArq Arquivo)" help="Abre a tela do gerenciador de impressão" image="method"/>
+<member const="Pack" help="Remove todos os registros deletados da tabela" image="method"/>
+<member function="Padc(expValor, nTamanho, [cPreenchimento])" help="Insere caracteres de preenchimento centraliza &lt;exp&gt;, adicionando caracteres de preenchimento à direita e à esquerda." image="event"/>
+<member function="Padl(expValor, nTamanho, [cPreenchimento])" help="Insere caracteres de preenchimento.Adiciona caracteres de preenchimento à esquerda" image="event"/>
+<member function="Padr(expValor, nTamanho, [cPreenchimento])" help="Insere caracteres de preenchimento. Adiciona caracteres de preenchimento à direita" image="event"/>
+<member function="PCol([nNewCol])" help="Informa ou muda a coluna corrente de impressão" image="method"/>
+<member function="Pergunte(cGrupo de perguntas, lVar" help="Acessa e edita um grupo de perguntas" image="event"/>
+<member function="Pertence(cString, cCampo a Verificar)" help="Verifica se o campo esta contido em outro" image="event"/>
+<member function="PesqPict(cAlias, cCampo, nTam)" help="Pesquisa picture de um determinado campo" image="event"/>
+<member function="Posicione(cAlias, nOrdem Pesquisa, cChave, cCampo retorno)" help="Posiciona o arquivo em um determinado registro e retorna um campo" image="event"/>
+<member function="Positivo(nCampo)" help="Verifica se valor é positivo" image="event"/>
+<member function="PreparePrint(lWindows, cPrinterconst, lDisco, cFile, l_lpd, nLeftMargin)" help="Prepara o relatorio para o indice da impressão" image="method"/>
+<member function="PrnFlush()" help="Forca envio do buffer de impressão para a impressora" image="method"/>
+<member function="Processa(bAção, [cTitulo], [cMesg], [lAborta])" help="Cria dialogo com uma regua de progressão" image="method"/>
+<member function="PROCESSMESSAGES()" help="renovar a pintura de suas janelas ou reagir a ação do mouse durante um processamento longo sendo  executado no Protheus Server" image="method"/>
+<member function="PROCLINE(nAtivação) " help="Tem como objetivo retornar o número de linha do código fonte da ativaçao corrente ou anterior." image="method"/>
+<member function="PROCconst()" help="Tem o objetivo de retornar o nome da rotina ou funçao definida pelo usuário corrente ou anterior." image="method"/>
+<member function="ProcRegua(nRegs)" help="Inicializa regua padrao de processamento" image="event"/>
+<member function="ProcRegua(nRegs, nLinha, nCol)" help="Inicializa regua padrao de processamento" image="event"/>
+<member function="PRow([nNewLine])" help="Informa ou muda a linha corrente de impressão" image="method"/>
+<member function="ProxReg(nInc, nPos, nIndice)" help="Retorna o ultimo registro incrementado" image="event"/>
+<member function="PswAdmin(cUsuario, cSenha)" help="Verifica se um usuario pertence ao grupo de administradores" image="method"/>
+<member function="PswID()" help="Retorna o Id do usuario ou do grupo de usuario" image="method"/>
+<member function="Pswconst(cSenha)" help="Verifica senha de usuario" image="method"/>
+<member function="PswOrder(nOrdem)" help="Posiciona a ordem de indexação do arquivo de senhas" image="method"/>
+<member function="PswRet()" help="Retorna vetor contendo informacoes do usuario ou do grupo de usuarios" image="method"/>
+<member function="PswSeek(cID, [lUsuario])" help="Pesquisa e posiciona o arquivo de senhas" image="method"/>
+<member function="randomize(nMinimo, nMaximo)" help="Geramos um numero inteiro aleatório, compreendido entre a faixa inferior e superior recebida através dos parâmetros nMinimo e nMaximo, respectivamente" image="method"/>
+<member function="Rat(cPesquisa, cDestino)" help="Retorna a posição da última ocorrência de um substring." image="method"/>
+<member function="RDDSetDefault([cNovoRddPadrao)" help="Modifica ou verifica o RDD padrao" image="method"/>
+<member function="ReadVar()" help="Retorna o nome da variavel que esta sendo editada" image="method"/>
+<member function="RealRDD()" help="Retorna qual é o driver que realmente esta sendo utilizado para abertura dos arquivos locais." image="method"/>
+<member function="RecLock(cAlias, lAdiciona)" help="tenta efetuar um lock no registro" image="method"/>
+<member function="RecMoeda(dData, nMoeda)" help="Obtem o valor da moeda desejad em determindada data" image="event"/>
+<member function="RecSize()" help="Verifica o tamanho do registro da tabela corrente" image="method"/>
+<member const="ReIndex" help="Reconstroi todos os indices abertos da area de trabalho corrente" image="method"/>
+<member function="RestArea(aArray para restauração)" help="Restaura a area a partir do array" image="event"/>
+<member function="RetAcsconst()" help="Retorna a extensão do arquivo de acessos corrente" image="method"/>
+<member function="RetAsc(cOri, nTam, lAlfa retorno deve conter letras)" help="Retorna um codigo de letras quando ultrapassar o numero max de digitos" image="event"/>
+<member function="RetExtHlp()" help="Retorna a extensão do help de campo" image="method"/>
+<member function="RetExtHls()" help="Retorna a extensão do help de solucoes" image="method"/>
+<member function="RetExtHpr()" help="Retorna a extensão do help do programa" image="method"/>
+<member function="RetExtMnu()" help="Retorna a extensão do menu corrente" image="method"/>
+<member function="RetFileconst(cArquivo)" help="Retorna o nome de um arquivo sem o caminho e sem a extensão" image="method"/>
+<member function="RETIMGTYPE(cImgPath)" help="Tem o objetivo de retornar o qual o tipo de imagem, do arquivo informado por paramêtro &lt;cImgPath&gt;." image="method"/>
+<member function="RetIndex(cAlias)" help="Devolve os indices padroes do Siga" image="event"/>
+<member const="RetSqlconst" help="Completa o nome da tabela da empresa posicionada" image="event"/>
+<member function="RLock()" help="Bloqueia o registro ccorrente dca tabela ativa" image="method"/>
+<member function="Roda([uPar1], [uPar2], [cTamanho])" help="Imprime rodape no relatorio" image="event"/>
+<member function="RollBackSX8()" help="Devolve o numero obtido no semafaro pela GetSX8Num" image="event"/>
+<member function="RptStatus(bBlock, cTitulo, cMsg)" help="Executa função de detalhe do relatorio" image="event"/>
+<member function="RTrim(cString)" help="Formata cadeias de caracteres que contenham espaços em branco à direita." image="method"/>
+<member function="Saldo(cConta, nPer, nMoeda)" help="Calcula o saldo de uma conta no periodo informado" image="event"/>
+<member function="SaldoCC(cCC, cConta, nPer, nMoeda)" help="Calcula o saldo de um centro de custo" image="event"/>
+<member function="SaldoCusto(cCCInicial, cCCFinal, cConta Inicial, cConta Final, nMes, nMoeda)" help="Calcula o saldo dos centro de custos extracontabeis" image="event"/>
+<member function="SaldoSB2()" help="Calcula o saldo atual do produto. SB2 deve estar posicionado no produto" image="event"/>
+<member function="Seconds()" help="Retorna o numero de segundos decorridos desde a meia noite" image="method"/>
+<member function="SENDTOFORE()" help="Esta função não retorna valor." image="method"/>
+<member function="SetDefault(aArray Return SetPrint, cAlias)" help="Habilita os padroes definidos pela função SetPrint" image="event"/>
+<member function="SetPrc(nLin, nCol)" help="Configura a linha e coluna correntes de impressão" image="method"/>
+<member function="SetPrint(cAlias, cNomeRel, cPerg, cDesc01, cDesc02, cDesc03, cDesc04, lDicion, aOrdem, lCompres, cClassRel)" help="Altera os padroes de impressão" image="event"/>
+<member function="SetRegua(nRegs)" help="Inicializa regua padrao em relatorios" image="event"/>
+<member function="Sin(nValor)" help="Tem como objetivo calcular o valor Seno." image="method"/>
+<member function="SixDescrição()" help="Retorna descrição de uma chave de indice" image="method"/>
+<member function="SldBco(cBanco, cAgencia, cConta, dData, nMoeda)" help="Retorna o saldo bancario em uma data" image="event"/>
+<member function="SldCliente(cCliente, dData, nMoeda, lSaldo)" help="Retorna o saldo a receber do cliente em uma determinada data" image="event"/>
+<member function="SldFornece(cFornece, dData, nMoeda, lSaldo)" help="Retorna o saldo a pagar em uma data" image="event"/>
+<member function="SldPagar(dData, nMoeda, lData)" help="Retorna o saldo a pagar em uma determinada data" image="event"/>
+<member function="SldReceber(dData, nMoeda, lData)" help="Retorna o saldo a receber em uma data" image="event"/>
+<member function="SLEEP(nSleep)" help="Tem o objetivo de fazer com que a thread corrente deixe de ser executada de acordo com o valor informado como parametro &lt;nSleep&gt;" image="method"/>
+<member function="SocketConn(cIP, nPort, cReq, nTimeOut)" help="É usada para criar uma conexão com um determinado destino, através da conexão de um Socket Client." image="method"/>
+<member function="Soma1(xVariavel)" help="Soma uma unidade na variavel de parametro, independente do tipo" image="event"/>
+<member function="SomaContas(cLista, nMes, nMoeda)" help="Retorna o saldo acumulado de um grupo de contas. Separe com  &quot;,&quot; as contas ou &quot;:&quot; um intervalo" image="event"/>
+<member function="SomaMovim(cContaInicial , cContaFinal, nMes, nMoeda)" help="Retorna o movimento dentro de um intervalo de contas" image="event"/>
+<member function="Somar(cAlias ,cCondição, cCampo)" help="Faz o somatorio de um campo num determinado arquivo" image="event"/>
+<member function="SomaSaldo(cContaInicial, cContaFinal, nPeriodo, nMoeda)" help="Retorna o saldo atual entre um intervalo de contas" image="event"/>
+<member function="Space(nCont)" help="Retorna uma string de espaços" image="method"/>
+<member function="SplitPath(cArq, [@cDrive], [@cCaminho ], [@cNome], [@cExt ])" help="Divide um caminho completo em todas as suas subpartes ( Drive , Caminho , Nome e Extensão ) . " image="method"/>
+<member function="Sqrt(nValor)" help="Retorna a raiz quadrada de um número positivo." image="method"/>
+<member function="StrToKarr(cValue, cToken)" help="Retorna um array, de acordo com os dados passados como parametro para a função" image="method"/>
+<member function="StrTran(cString, cSearch, [ cReplace ], [ nStart ], [ nCount ])" help="Realiza a busca da ocorrência da string. A função Strtran() é case-sensitive." image="method"/>
+<member function="Stuff(cString, nInicio, nElimina, cInsere)" help="Eliminar e inseri caracteres em um string." image="method"/>
+<member function="SumMovimCC(cCCInicial, cCCFinal, cContaInicial, cContaFinal, nMes, nMoeda)" help="Retorna o movimento de um intervalo de centro de custos" image="event"/>
+<member function="Tabela(cTab, cChave, lPrint)" help="Retorna o conteudo do SX5 conforme chave" image="event"/>
+<member function="TamSX3(cCampo)" help="Retrona um array com o tamanho e decimais de um campo " image="event"/>
+<member function="Tan(nValor)" help="Calcular o valor da tangente ou tangente Hiperbólica." image="method"/>
+<member function="TCConType(cTipo)" help="Define o tipo de concexao que sera utilizada entre o protheus e o topconect" image="method"/>
+<member function="TcDelFile(cTabela)" help="Apaga um arquivo de um banco de dados relacional via TopConnect." image="method"/>
+<member function="TcGenQry([xPar1], [xPar2], cQuery)" help="Define a execução de uma Query. Determina que a próxima chamada a DBUseArea será a abertura de uma Query e não de tabela." image="method"/>
+<member function="TCIsvLock()" help="Verifica se o servidor possui sistema de locks virtuais" image="method"/>
+<member function="TcLink(cTipo, cServidor) " help="Realiza uma conexão ao TopConnect" image="event"/>
+<member function="TcRefresh(cTabela)" help="Faz o refresh de uma tabela, através de uma leitura forçada da tabela no banco de dados" image="method"/>
+<member function="TcSetConn(nConexao)" help="Altera a conexão corrente. Novas tabelas abertas ou criadas utilizarão esta conexão para realizar a operação" image="method"/>
+<member function="TcSetDummy(lValor)" help="É utilizado para fazer uma abertura mais rápida dos arquivos." image="method"/>
+<member function="TcSetField(cAlias, cCampo, cTipo, [nTamanho], [nDecimais])" help="Altera o tipo de um campo pois quando se faz a abertura de uma tabela via TCquery, todos os campos aparecem como tipo Caracter" image="method"/>
+<member function="TcSpExec(cSProc, [xParam])" help="Executa uma Stored Procedure no banco de dados com número variável de parâmetros" image="method"/>
+<member function="TcSpExist(cSproc)" help="Verifica a existência de uma Stored Procedure no Banco de dados atual" image="method"/>
+<member function="TcSqlError()" help="Retorna o último erro produzido em comandos SQL" image="method"/>
+<member function="TcSrvType()" help="Retorna o tipo de servidor onde está o banco de dados corrente" image="method"/>
+<member function="TCSysExe(cComado)" help="Executa um comando do sistema operacional no servidor TopConect" image="method"/>
+<member function="TcUnLink()" help="Finaliza a conexão especificada com o TopConnect" image="method"/>
+<member function="TCVLock(cPalavra)" help="Bloqueia uma string atraves de lock virtual" image="method"/>
+<member function="TCVUnLock([cPalavra])" help="Libera o bloqueio virtual de uma string" image="method"/>
+<member function="THREADID()" help="Tem o objetivo de retornar o ID da Thread em que a chamada da função foi realizada." image="method"/>
+<member function="Time()" help="Utilizada para exibir ou imprimir a hora do sistema em um relatório ou na tela." image="method"/>
+<member function="Tm(nValor, nEdição, nDec)" help="Devolve a picture de impressão de campos numericos" image="method"/>
+<member function="TransForm(exp, cSayPicture )" help="Converte qualquer valor para uma cadeia de caracteres formatada." image="method"/>
+<member function="uncompress(@cBufferOut, @nLengthOut, cBufferIn, @nLengthIn)" help="Descompacta um buffer recebido, através do algoritmo proprietário." image="method"/>
+<member function="UnLock([all])" help="Desbloqueia os registros da tabela corrente" image="method"/>
+<member function="UpdateIntconst(cNome)" help="Atualiza o nome do indice interno da tabela CTree" image="method"/>
+<member function="Used()" help="Determina se há um arquivo de banco de dados em uso em uma área de trabalho específica" image="method"/>
+<member function="USEREXCEPTION(cDescrição)" help="Tem o objetivo de forçar um erro em ADVPL de forma que possamos tratar de alguma forma." image="method"/>
+<member function="Val(cValor)" help="Converte uma sequência de caracteres que contém dígitos numéricos, em um valor numérico." image="method"/>
+<member function="VALTYPE()" help="Tem o objetivo de retornar uma string contendo a descrição do tipo da variável informada por parametro." image="method"/>
+<member function="Variação(nFator01, nFator02)" help="Retorna a variação em percentual entre dois valores" image="event"/>
+<member function="VARSETGET(sconstVar, bCodigo)" help="Tem como objetivo atribuir um bloco de código para uma variável ADVPL." image="method"/>
+<member function="Vazio(cCampo)" help="Verifica se o campo esta vazio, retorna valor logico" image="event"/>
+<member function="VerSenha(nOpc)" help="Verifica se o usuario tem acesso a determinada opção" image="event"/>
+<member function="W2Bin(nValor)" help="Converte um valor numérico para um inteiro com sinal de 16 bits." image="method"/>
+<member function="WritepProString(cSeção, cChave, cConteudo, cArqIni) " help="Criar e/ou alterar uma seção / chave de configuração em um arquivo .ini . Caso o arquivo não exista , o mesmo será criado" image="method"/>
+</memberlist>

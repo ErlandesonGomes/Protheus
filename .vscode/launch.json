@@ -1,0 +1,138 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"type": "totvs_language_debug",
+			"request": "launch",
+			"name": "Depuração do idioma TOTVS",
+			"program": "${command:AskForProgramName}",
+			"cwb": "${workspaceFolder}",
+			"smartclientBin": "C:/SMARTCLIENT/smartclient.exe",
+			"isMultiSession": true,
+			"enableTableSync": true,
+			"enableMultiThread": true,
+			"programArguments": [],
+			"enableProfile": false,
+			"isAccessibilityMode": false,
+			"doNotShowSplash": false,
+			"openglMode": false,
+			"dpiMode": false,
+			"language": "",
+			"ignoreFiles": true
+		}
+	],
+	"lastPrograms": [
+		{
+			"label": "sigaesp"
+		},
+		{
+			"label": "U_TELA1"
+		},
+		{
+			"label": "mata010"
+		},
+		{
+			"label": "U_LogPrd"
+		},
+		{
+			"label": "U_Reltxt"
+		},
+		{
+			"label": "U_APIFILME"
+		},
+		{
+			"label": "U_APIPOST"
+		},
+		{
+			"label": "U_T164POST"
+		},
+		{
+			"label": "SIGAMDI"
+		},
+		{
+			"label": "SIGACOM"
+		},
+		{
+			"label": "U_EMAILFIN"
+		},
+		{
+			"label": "sigaADV"
+		},
+		{
+			"label": "U_TESTMSG"
+		},
+		{
+			"label": "U_TESTE"
+		},
+		{
+			"label": "sigaCFG"
+		},
+		{
+			"label": "xxx"
+		},
+		{
+			"label": "U_ExecAutoMT410"
+		},
+		{
+			"args": [],
+			"label": "U_ExecAutoMT410"
+		},
+		{
+			"label": "U_testemt110"
+		},
+		{
+			"label": "SIGAFAT"
+		},
+		{
+			"label": "U_TesteCli2"
+		},
+		{
+			"label": "U_MyPVLNFS"
+		},
+		{
+			"label": "U_Teste123"
+		},
+		{
+			"label": "xxxx"
+		},
+		{
+			"label": "U_m010IncRa"
+		},
+		{
+			"label": "sigagpE"
+		},
+		{
+			"label": "sigagFE"
+		},
+		{
+			"label": "U_Jsonteste"
+		},
+		{
+			"label": "U_ZJSONKIT"
+		},
+		{
+			"label": "U_zz"
+		},
+		{
+			"label": "U_testetelcondpag"
+		},
+		{
+			"label": "U_REQMAT"
+		},
+		{
+			"label": "sigaest"
+		},
+		{
+			"label": "u_testenota"
+		},
+		{
+			"args": [],
+			"label": "GetBuild"
+		},
+		{
+			"label": "U_AtlCusto"
+		}
+	],
+	"lastProgramExecuted": "<cancel>",
+	"lastProgramArguments": []
+}

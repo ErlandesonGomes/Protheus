@@ -1,0 +1,22 @@
+------------------------------ Etapas Para Passar Para Produção -------------------------------
+------------                                                                       ------------
+------------       Criação dos Campos na tabela de Produção                        ------------
+------------           C1_YPIPID - ID DO CARD NO PIPEFY                            ------------
+------------           C1_YDTSPIP - DATA DA SOLICITAÇÃO                            ------------
+------------           C1_DTAP1PI - DATA DE APROVAÇÃO HEAD/APROVADOR               ------------
+------------           C1_DTAP2PI - DATA DE APROVAÇÃO DIRETORIA                    ------------
+------------           C1_YTOTALE - VALOR TOTAL DO ITEM                            ------------
+------------           C1_YPRIO - COMPRA COM PRIORIDADE                            ------------
+------------                                                                       ------------
+------------       Ajuste Nos Campos Existentes                                    ------------
+------------           C1_OBS - VALOR DA DESCRIÇÃO NO MINIMO 100 CARACTERES        ------------
+------------                                                                       ------------
+------------       Criação de Parametros                                           ------------
+------------           MV_PIPEFY1 - ID STATUS PIPEFY HEAD CELULA                   ------------
+------------           MV_PIPEFY2 - ID STATUS PIPEFY HEAD COMPRAS                  ------------
+------------           MV_PIPEFY3 - ID STATUS PIPEFY DIRETORIA                     ------------
+------------                                                                       ------------
+------------       Ajuste de Parametros                                            ------------
+------------           MV_RESTNFE = S                                              ------------
+------------                                                                       ------------
+------------------------------ Etapas Para Passar Para Produção -------------------------------

@@ -1,0 +1,131 @@
+{"Pedidos":[
+    {
+        "C5_CLIENTE":"22812",
+        "C5_CONDPAG":"014",
+        "C5_EMAIL":"michele.morais@fonnet.com.br, compras@goxinternet.com.br, financeiro@goxinternet.com.br",
+        "C5_ESPECI1":"CAIXA",
+        "C5_FILIAL":"010101",
+        "C5_FRETE":1,
+        "C5_LOJACLI":"01",
+        "C5_MENNOTA":"PROPOSTA: FN-20220707-56821 SITE:  ORDEM: ",
+        "C5_MENPAD":"001",
+        "C5_PBRUTO":2.45,
+        "C5_PESOL":2.45,
+        "C5_TPFRETE":"C",
+        "C5_TRANSP":"000033",
+        "C5_VEND1":"014",
+        "C5_VOLUME1":1,
+        "C5_YNUM":45192,
+        "C5_YPEDCLI":"FN-20220707-56821",
+        "ITENS":[{
+                "C6_ITPC":"0001",
+                "C6_NUMPCOM":"Autorizado pelo Whatsapp",
+                "C6_PRCVEN":224.81093,
+                "C6_PRODUTO":"9100195",
+                "C6_QTDLIB":4,
+                "C6_QTDVEN":4,
+                "C6_TES":"700",
+                "C6_VALOR":899.24
+            },{
+                "C6_ITPC":"0001",
+                "C6_NUMPCOM":"Autorizado pelo Whatsapp",
+                "C6_PRCVEN":303.64465,
+                "C6_PRODUTO":"9100197",
+                "C6_QTDLIB":4,
+                "C6_QTDVEN":4,
+                "C6_TES":"700",
+                "C6_VALOR":1214.58
+            },{
+                "C6_ITPC":"0001",
+                "C6_NUMPCOM":"Autorizado pelo Whatsapp",
+                "C6_PRCVEN":503.68109,
+                "C6_PRODUTO":"9100361",
+                "C6_QTDLIB":4,
+                "C6_QTDVEN":4,
+                "C6_TES":"700",
+                "C6_VALOR":2014.72
+            },{
+                "C6_ITPC":"0001",
+                "C6_NUMPCOM":"Autorizado pelo Whatsapp",
+                "C6_PRCVEN":224.81093,
+                "C6_PRODUTO":"9100196",
+                "C6_QTDLIB":4,
+                "C6_QTDVEN":4,
+                "C6_TES":"700",
+                "C6_VALOR":899.24
+            },{
+                "C6_ITPC":"0001",
+                "C6_NUMPCOM":"Autorizado pelo Whatsapp",
+                "C6_PRCVEN":303.64465,
+                "C6_PRODUTO":"9100198",
+                "C6_QTDLIB":4,
+                "C6_QTDVEN":4,
+                "C6_TES":"700",
+                "C6_VALOR":1214.58
+            },{
+                "C6_ITPC":"0001",
+                "C6_NUMPCOM":"Autorizado pelo Whatsapp",
+                "C6_PRCVEN":503.68109,
+                "C6_PRODUTO":"9100362",
+                "C6_QTDLIB":4,
+                "C6_QTDVEN":4,
+                "C6_TES":"700",
+                "C6_VALOR":2014.72
+            },{
+                "C6_ITPC":"0001",
+                "C6_NUMPCOM":"Autorizado pelo Whatsapp",
+                "C6_PRCVEN":245.01139,
+                "C6_PRODUTO":"9102065",
+                "C6_QTDLIB":1,
+                "C6_QTDVEN":1,
+                "C6_TES":"700",
+                "C6_VALOR":245.01
+            },{
+                "C6_ITPC":"0001",
+                "C6_NUMPCOM":"Autorizado pelo Whatsapp",
+                "C6_PRCVEN":1263.87244,
+                "C6_PRODUTO":"9100417",
+                "C6_QTDLIB":4,
+                "C6_QTDVEN":4,
+                "C6_TES":"700",
+                "C6_VALOR":5055.49
+            },{
+                "C6_ITPC":"0001",
+                "C6_NUMPCOM":"Autorizado pelo Whatsapp",
+                "C6_PRCVEN":924.06378,
+                "C6_PRODUTO":"9100709",
+                "C6_QTDLIB":6,
+                "C6_QTDVEN":6,
+                "C6_TES":"700",
+                "C6_VALOR":5544.38
+            }]
+    
+},
+        {
+            "C5_CLIENTE":"22740",
+            "C5_CONDPAG":"006",
+            "C5_EMAIL":"camilla.saboia@fonnet.com.br,  financeiro@expressnetwork.com.br, financeiro@expressnetwork.com.br ",
+            "C5_ESPECI1":"CAIXA",
+            "C5_FILIAL":"1",
+            "C5_FRETE":135,
+            "C5_LOJACLI":"01",
+            "C5_MENNOTA":"PROPOSTA: FN-20220707-56818 SITE:  ORDEM: ",
+            "C5_MENPAD":"001",
+            "C5_PBRUTO":0.292,
+            "C5_PESOL":0.292,
+            "C5_TPFRETE":"F",
+            "C5_TRANSP":"000033",
+            "C5_VEND1":"009",
+            "C5_VOLUME1":1,
+            "C5_YNUM":45202,
+            "C5_YPEDCLI":"FN-20220707-56818",
+            "ITENS":[{
+                    "C6_ITPC":"0001",
+                    "C6_NUMPCOM":"Autorizado pelo Cliente",
+                    "C6_PRCVEN":77.39130,
+                    "C6_PRODUTO":"9100003",
+                    "C6_QTDLIB":4,
+                    "C6_QTDVEN":4,
+                    "C6_TES":"700",
+                    "C6_VALOR":309.57
+            }]}]}
